@@ -16,9 +16,11 @@ will survey a set of algorithmic tools that allow us to privately
 perform a wide range of statistical analyses and machine learning
 tasks. Of course, privacy does not come for free, and we will also
 study some of the fundamental limitations imposed by the requirement
-of differential privacy. We will also cover some novel and surprising
-connections between differential privacy and and machine learning,
-game theory, and cryptography.
+of differential privacy. 
+
+
+We will also cover other topics related to privacy, including fairness
+and cryptography.
 
 
 ## Logistics
@@ -31,13 +33,18 @@ game theory, and cryptography.
   - [Steven Wu](https://zstevenwu.com)
     - **Email**: [zstevenwu@cmu.edu](mailto:zstevenwu@cmu.edu)
     - **Office hours**: N/A
-    - **Location**: See Canvas or email the instructor to schedule a time
+    - **Location**: See Canvas for Zoom Link
+
+## Teaching Assistant
+  - [Justin Whitehouse](https://www.cs.cmu.edu/~jwhiteho/)
+	- **Email**: [jwhiteho@andrew.cmu.edu](mailto:jwhiteho@andrew.cmu.edu)
+	- **Office hours**: N/A
+	- **Location**: N/A
 
 ## Prerequisites
 This is a theory-oriented course, intended for graduate students and
-advanced undergraduates. The (informal) prerequisites are mathematical
-maturity, ability to read and engage with original research, and
-familiarity with probability and introductory algorithms. Prior
+advanced undergraduates. The (informal) prerequisite is familiarity
+with probability, linear algebra, and introductory algorithms. Prior
 coursework in machine learning, algorithms, and probability will be
 helpful.
 
@@ -52,7 +59,6 @@ Dwork](https://www.microsoft.com/en-us/research/people/dwork/) and
 of Differential
 Privacy](https://privacytools.seas.harvard.edu/files/privacytools/files/complexityprivacy_1.pdf)
 by [Salil Vadhan](https://salil.seas.harvard.edu/).
-
 
 
 ## Accommodations for Students with Disabilities
