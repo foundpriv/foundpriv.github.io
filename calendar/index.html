@@ -1,0 +1,811 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Foundations of Privacy (Fall 2021)">
+      
+      
+      
+        <link rel="canonical" href="https://foundpriv.github.io/calendar/">
+      
+      
+        <meta name="author" content="Steven Wu">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+    
+    
+      
+        <title>Lectures - Foundations of Privacy (CMU Fall 2021)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.19753c6b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.196e0c26.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#schedule" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://foundpriv.github.io/" title="Foundations of Privacy (CMU Fall 2021)" class="md-header-nav__button md-logo" aria-label="Foundations of Privacy (CMU Fall 2021)">
+      
+  <img src="../assets/images/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Foundations of Privacy (CMU Fall 2021)
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Lectures
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+      
+      <a href=".." class="md-tabs__link">
+        Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+      
+        
+      
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Schedule
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+      
+      <a href="../hw/" class="md-tabs__link">
+        Assignments
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+      
+      <a href="../resources/" class="md-tabs__link">
+        Resources
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://foundpriv.github.io/" title="Foundations of Privacy (CMU Fall 2021)" class="md-nav__button md-logo" aria-label="Foundations of Privacy (CMU Fall 2021)">
+      
+  <img src="../assets/images/favicon.png" alt="logo">
+
+    </a>
+    Foundations of Privacy (CMU Fall 2021)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+    <label class="md-nav__link" for="nav-1">
+      Home
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Home" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon"></span>
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href=".." class="md-nav__link">
+      Syllabus
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    <label class="md-nav__link" for="nav-2">
+      Schedule
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Schedule" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Schedule
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Lectures
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Lectures
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-schedule-tentative" class="md-nav__link">
+    Lecture Schedule (Tentative)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deadlines" class="md-nav__link">
+    Deadlines
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      Assignments
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Assignments" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Assignments
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hw/" class="md-nav__link">
+      Homework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../project/" class="md-nav__link">
+      Project
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    <label class="md-nav__link" for="nav-4">
+      Resources
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Resources" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Resources
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../resources/" class="md-nav__link">
+      Resources
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-schedule-tentative" class="md-nav__link">
+    Lecture Schedule (Tentative)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deadlines" class="md-nav__link">
+    Deadlines
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="schedule">Schedule</h1>
+<h2 id="lecture-schedule-tentative">Lecture Schedule (Tentative)</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Week</th>
+<th align="center">Lecture</th>
+<th>Topic</th>
+<th>Readings</th>
+<th align="center">Slides <br> Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Week 1</strong></td>
+<td align="center">Lecture 1 (8/31)</td>
+<td><strong>Course Overview</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 1</strong></td>
+<td align="center">Lecture 2 (9/1)</td>
+<td><strong>Reconstruction Attacks (Part 1)</strong></td>
+<td><a href="https://queue.acm.org/detail.cfm?id=3295691">Reading</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 2</strong></td>
+<td align="center"><strong>Labor Day</strong> (9/6)</td>
+<td><strong>No Class</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 2</strong></td>
+<td align="center">Lecture 3 (9/8)</td>
+<td><strong>Reconstruction Attacks (Part 2)</strong></td>
+<td><a href="https://differentialprivacy.org/diffix-attack/">Reading</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td><strong>Definitions and Basic Techniques </strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 3</strong></td>
+<td align="center">Lecture 4 (9/13)</td>
+<td><strong>Definition of Differential Privacy</strong> <br> <strong>Randomized Response</strong></td>
+<td><a href="https://www.youtube.com/watch?v=FE9ko2wtyeQ">Reading</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 3</strong></td>
+<td align="center">Lecture 5 (9/15)</td>
+<td><strong>Properties of DP</strong> <br> <strong>Laplace Mechanism</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 4</strong></td>
+<td align="center">Lecture 6 (9/20)</td>
+<td><strong>Selection problem (part 1)</strong> <br> <strong>Exponential Mech.</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 4</strong></td>
+<td align="center">Lecture 7 (9/22)</td>
+<td><strong>Selection problem (part 2)</strong> <br> <strong>Report noisy max</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 5</strong></td>
+<td align="center">Lecture 8 (9/27)</td>
+<td><strong>Binary Tree Mechanism</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 5</strong></td>
+<td align="center">Lecture 9 (9/29)</td>
+<td><strong>Approximate Differential Privacy</strong> <br> <strong>Gaussian Mechanism</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 6</strong></td>
+<td align="center">Lecture 10 (10/4)</td>
+<td><strong>Advanced Composition</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 6</strong></td>
+<td align="center">Lecture 11 (10/6)</td>
+<td><strong>Local Model</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td><strong>Private Machine Learning</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 7</strong></td>
+<td align="center">Lecture 12 (10/11)</td>
+<td><strong>Basic Machine Learning</strong> <br> <strong>Gradient descent</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 7</strong></td>
+<td align="center">Lecture 13 (10/13)</td>
+<td><strong>DP SGD (Part 1)</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 8</strong></td>
+<td align="center">Lecture 14 (10/18)</td>
+<td><strong>DP SGD (Part 2)</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 8</strong></td>
+<td align="center">Lecture 15 (10/20)</td>
+<td><strong>Federated Learning (Part 1)</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 9</strong></td>
+<td align="center">Lecture 16 (10/25)</td>
+<td><strong>Federated Learning (Part 2)</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 9</strong></td>
+<td align="center">Lecture 17 (10/27)</td>
+<td><strong>DP Synthetic Data (Part 1)</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 10</strong></td>
+<td align="center">Lecture 18 (11/1)</td>
+<td><strong>DP Synthetic Data (Part 2)</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 10</strong></td>
+<td align="center">Lecture 19 (11/3)</td>
+<td><strong>Buffer</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td><strong>Fairness in Machine Learning</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 11</strong></td>
+<td align="center">Lecture 20 (11/8)</td>
+<td><strong>Fair ML (Part 1)</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 11</strong></td>
+<td align="center">Lecture 21 (11/10)</td>
+<td><strong>Fair ML (Part 2)</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 12</strong></td>
+<td align="center">Lecture 22 (11/15)</td>
+<td><strong>Fairness and Causal Inference</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td><strong>Cryptographic Tools</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 12</strong></td>
+<td align="center">Lecture 23 (11/17)</td>
+<td><strong>TBA</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 13</strong></td>
+<td align="center">Lecture 24 (11/22)</td>
+<td><strong>TBA</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 13</strong></td>
+<td align="center"><strong>Thanksgiving</strong> (11/24)</td>
+<td><strong>No Class</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 14</strong></td>
+<td align="center">Lecture 25 (11/29)</td>
+<td><strong>TBA</strong></td>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Week 14</strong></td>
+<td align="center">Lecture 26 (12/1)</td>
+<td><strong>Review</strong> (Last Lecture)</td>
+<td></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<p>Acknowledgement: Some of course materials are based on those developed
+by Gautam Kamath, Jonathan Ullman, Adam Smith, and Aaron Roth.</p>
+<h2 id="deadlines">Deadlines</h2>
+<p>TBA</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href=".." class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Syllabus
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../hw/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Homework
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: ['navigation.tabs'],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

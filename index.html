@@ -1,0 +1,871 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Foundations of Privacy (Fall 2021)">
+      
+      
+      
+        <link rel="canonical" href="https://foundpriv.github.io/">
+      
+      
+        <meta name="author" content="Steven Wu">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+    
+    
+      
+        <title>Syllabus - Foundations of Privacy (CMU Fall 2021)</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.19753c6b.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.196e0c26.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#foundations-of-privacy" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://foundpriv.github.io/" title="Foundations of Privacy (CMU Fall 2021)" class="md-header-nav__button md-logo" aria-label="Foundations of Privacy (CMU Fall 2021)">
+      
+  <img src="assets/images/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Foundations of Privacy (CMU Fall 2021)
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Syllabus
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+      
+        
+      
+      <a href="." class="md-tabs__link md-tabs__link--active">
+        Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+      
+      <a href="calendar/" class="md-tabs__link">
+        Schedule
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+      
+      <a href="hw/" class="md-tabs__link">
+        Assignments
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+      
+      <a href="resources/" class="md-tabs__link">
+        Resources
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://foundpriv.github.io/" title="Foundations of Privacy (CMU Fall 2021)" class="md-nav__button md-logo" aria-label="Foundations of Privacy (CMU Fall 2021)">
+      
+  <img src="assets/images/favicon.png" alt="logo">
+
+    </a>
+    Foundations of Privacy (CMU Fall 2021)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    <label class="md-nav__link" for="nav-1">
+      Home
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Home" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon"></span>
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Syllabus
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="." class="md-nav__link md-nav__link--active">
+      Syllabus
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logistics" class="md-nav__link">
+    Logistics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructor" class="md-nav__link">
+    Instructor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#textbooks" class="md-nav__link">
+    Textbooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accommodations-for-students-with-disabilities" class="md-nav__link">
+    Accommodations for Students with Disabilities
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diversity-statement" class="md-nav__link">
+    Diversity Statement
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication" class="md-nav__link">
+    Communication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    Grading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-work-is-due" class="md-nav__link">
+    When Work is Due
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#late-assignments" class="md-nav__link">
+    Late Assignments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#special-accommodations" class="md-nav__link">
+    Special Accommodations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#health-wellness" class="md-nav__link">
+    Health &amp; Wellness
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    <label class="md-nav__link" for="nav-2">
+      Schedule
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Schedule" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Schedule
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="calendar/" class="md-nav__link">
+      Lectures
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      Assignments
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Assignments" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Assignments
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="hw/" class="md-nav__link">
+      Homework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="project/" class="md-nav__link">
+      Project
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    <label class="md-nav__link" for="nav-4">
+      Resources
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Resources" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Resources
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="resources/" class="md-nav__link">
+      Resources
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logistics" class="md-nav__link">
+    Logistics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructor" class="md-nav__link">
+    Instructor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#textbooks" class="md-nav__link">
+    Textbooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accommodations-for-students-with-disabilities" class="md-nav__link">
+    Accommodations for Students with Disabilities
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diversity-statement" class="md-nav__link">
+    Diversity Statement
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication" class="md-nav__link">
+    Communication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    Grading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-work-is-due" class="md-nav__link">
+    When Work is Due
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#late-assignments" class="md-nav__link">
+    Late Assignments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#special-accommodations" class="md-nav__link">
+    Special Accommodations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#health-wellness" class="md-nav__link">
+    Health &amp; Wellness
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="foundations-of-privacy">Foundations of Privacy</h1>
+<h2 id="overview">Overview</h2>
+<p>Privacy is a significant concern in modern society. Individuals share
+personal information with many different organizations - healthcare,
+financial and educational institutions, the census bureau, web
+services providers and online social networks - often in electronic
+form. Privacy violations occur when such personal information is
+inappropriately collected, shared or used. We will study privacy in a
+few settings where rigorous definitions and enforcement mechanisms are
+being developed. The primary focus of this course is <strong>differential
+privacy</strong>, a framework of designing data analysis algorithms with
+strong, meaningful, and mathematically provable privacy guarantees. We
+will survey a set of algorithmic tools that allow us to privately
+perform a wide range of statistical analyses and machine learning
+tasks. Of course, privacy does not come for free, and we will also
+study some of the fundamental limitations imposed by the requirement
+of differential privacy. We will also cover some novel and surprising
+connections between differential privacy and and machine learning,
+game theory, and cryptography.</p>
+<h2 id="logistics">Logistics</h2>
+<ul>
+<li><strong>Course</strong>: Foundations of Privacy, Fall 2021</li>
+<li><strong>Zoom Link</strong>: See Canvas</li>
+<li><strong>Lecture Time</strong>: Fall 2021, 11:50AM--1:10PM, Mon &amp; Weds</li>
+</ul>
+<h2 id="instructor">Instructor</h2>
+<ul>
+<li><a href="https://zstevenwu.com">Steven Wu</a><ul>
+<li><strong>Email</strong>: <a href="mailto:zstevenwu@cmu.edu">zstevenwu@cmu.edu</a></li>
+<li><strong>Office hours</strong>: N/A</li>
+<li><strong>Location</strong>: See Canvas or email the instructor to schedule a time</li>
+</ul>
+</li>
+</ul>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>This is a theory-oriented course, intended for graduate students and
+advanced undergraduates. The (informal) prerequisites are mathematical
+maturity, ability to read and engage with original research, and
+familiarity with probability and introductory algorithms. Prior
+coursework in machine learning, algorithms, and probability will be
+helpful.</p>
+<h2 id="textbooks">Textbooks</h2>
+<p>There is no need buy any textbook for this course. We will provide
+lecture notes in this course. In addition, we will frequently use the
+book <a href="https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf">The Algorithmic Foundations of Differential
+Privacy</a> by
+<a href="https://www.microsoft.com/en-us/research/people/dwork/">Cynthia
+Dwork</a> and
+<a href="https://www.cis.upenn.edu/~aaroth/">Aaron Roth</a> and <a href="https://privacytools.seas.harvard.edu/files/privacytools/files/complexityprivacy_1.pdf">The Complexity
+of Differential
+Privacy</a>
+by <a href="https://salil.seas.harvard.edu/">Salil Vadhan</a>.</p>
+<h2 id="accommodations-for-students-with-disabilities">Accommodations for Students with Disabilities</h2>
+<p>If you have a disability and are registered with the Office of
+Disability Resources, we encourage you to use their online system to
+notify us of your accommodations and discuss your needs with us as
+early in the semester as possible. We will work with you to ensure
+that accommodations are provided as appropriate. If you suspect that
+you may have a disability and would benefit from accommodations but
+are not yet registered with the Office of Disability Resources, we
+encourage you to contact them at
+<a href="access@andrew.cmu.edu">access@andrew.cmu.edu</a>.</p>
+<h2 id="diversity-statement">Diversity Statement</h2>
+<p>It is our goal that students from all diverse backgrounds and
+perspectives are well served by this course, that students’ learning
+needs be addressed both in and out of class, and that the diversity
+that students bring to this class be viewed as a resource, strength,
+and benefit. Dimensions of diversity include race, age, national
+origin, ethnicity, gender identity and expression, intellectual and
+physical ability, sexual orientation, faith and non-faith
+perspectives, socio-economic class, political ideology, education,
+primary language, family status, military experience, cognitive style,
+and communication style. We are intentional in our aim to present
+materials and activities that are respectful of diversity, based on
+these dimensions and any other visible and invisible differences not
+captured in this list. Indeed, in this class you will learn to
+approach technology design from an empathetic, human-centered
+perspective that directly examines and challenges bias and
+inequality. Your suggestions for ensuring that the class lives up to
+these values are encouraged and welcomed. In addition, if at any time
+you experience or witness anything in this class that challenges
+inclusion, is insensitive or othering, or reinforces biases or
+stereotypes, please report those experiences (responses can be
+anonymous).</p>
+<h2 id="communication">Communication</h2>
+<ul>
+<li>
+<p><strong>Canvas</strong>: We will be using Canvas for all assignments and grades.
+Please also post all questions on Canvas as discussions instead of
+sending emails.</p>
+</li>
+<li>
+<p><strong>Email</strong>: If you email your instructors, you might want to include the
+  substring "DP Course" to begin a meaningful subject line and have
+  tried to resolve the issue appropriately otherwise. For example, you
+  should post questions about course material and homework assignments
+  on Canvas first, and then use emails only after an appropriate
+  amount of time has passed without a response. Please use your CMU
+  email account.</p>
+</li>
+</ul>
+<h2 id="grading">Grading</h2>
+<table>
+<thead>
+<tr>
+<th>Percentage</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20%</td>
+<td>In-class Activity Participation</td>
+</tr>
+<tr>
+<td>60%</td>
+<td>Assignment 1-4, 15% each</td>
+</tr>
+<tr>
+<td>20%</td>
+<td>Take-home final, 20%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="when-work-is-due">When Work is Due</h2>
+<ul>
+<li>Projects and assignments are due on Sundays at 11:59pm. </li>
+</ul>
+<h2 id="late-assignments">Late Assignments</h2>
+<p>We realize that things happen, and that you might sometimes not be
+able to turn in your assignments. To accommodate this, you will each
+receive <strong>5 free late days</strong>.</p>
+<p>Beyond those days, you receive a 5% penalty for each day late.  You
+are welcome to budget late days as you like, for instance 3 free days
+late for one assignment, 2 for another, or all 5 for one.</p>
+<h2 id="special-accommodations">Special Accommodations</h2>
+<p>If you have a disability and have an accommodation letter from the
+Disability Resources office, we encourage you to discuss your
+accommodations and needs with us as early in the semester as
+possible. We will work with you to ensure that accommodations are
+provided as appropriate. If you suspect that you may have a disability
+and would benefit from accommodations but are not yet registered with
+the Office of Disability Resources, we encourage you to contact them
+at <a href="mailto:access@andrew.cmu.edu">access@andrew.cmu.edu</a>.</p>
+<h2 id="health-wellness">Health &amp; Wellness</h2>
+<p>Take care of yourself. Do your best to maintain a healthy lifestyle
+this semester by eating well, exercising, avoiding drugs and alcohol,
+getting enough sleep and taking some time to relax. This will help you
+achieve your goals and cope with stress.</p>
+<p>All of us benefit from support during times of struggle. There are
+many helpful resources available on campus and an important part of
+the college experience is learning how to ask for help. Asking for
+support sooner rather than later is almost always helpful.</p>
+<p>If you or anyone you know experiences any academic stress, difficult
+life events, or feelings like anxiety or depression, we strongly
+encourage you to seek support. Counseling and Psychological Services
+(CaPS) is here to help: call 412-268-2922 and visit their website at
+<a href="http://www.cmu.edu/counseling/">http://www.cmu.edu/counseling/</a>. Consider
+reaching out to a friend, faculty or family member you trust for help
+getting connected to the support that can help.</p>
+<p>If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:</p>
+<p>CaPS: 412-268-2922</p>
+<p>Re:solve Crisis Network: 888-796-8226</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+        
+          <a href="calendar/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Lectures
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: ".",
+          features: ['navigation.tabs'],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
