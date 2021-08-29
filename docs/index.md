@@ -22,6 +22,9 @@ of differential privacy.
 We will also cover other topics related to privacy, including fairness
 and cryptography.
 
+Please see the [calendar](calendar.md) for individual lectures.
+
+
 
 ## Logistics
 - **Course**: Foundations of Privacy, Fall 2021
@@ -102,13 +105,13 @@ anonymous).
 Please also post all questions on Canvas as discussions instead of
 sending emails.
 
--  **Email**: If you email your instructors, you might want to include the
-  substring "DP Course" to begin a meaningful subject line and have
-  tried to resolve the issue appropriately otherwise. For example, you
-  should post questions about course material and homework assignments
-  on Canvas first, and then use emails only after an appropriate
-  amount of time has passed without a response. Please use your CMU
-  email account.
+-  **Email**: If you email your instructors, you might want to include
+  the substring "[FoundPriv Course]" to begin a meaningful subject
+  line and have tried to resolve the issue appropriately
+  otherwise. For example, you should post questions about course
+  material and homework assignments on Canvas first, and then use
+  emails only after an appropriate amount of time has passed without a
+  response. Please use your CMU email account.
 
 
 
