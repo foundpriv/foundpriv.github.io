@@ -128,7 +128,7 @@ Percentage | Activity  |
 
 
 ## When Work is Due
-- Projects and assignments are due on Sundays at 11:59pm. 
+- Assignments are due on Sundays at 11:59pm. 
 
 
 ## Late Assignments
@@ -170,7 +170,8 @@ encourage you to seek support. Counseling and Psychological Services
 reaching out to a friend, faculty or family member you trust for help
 getting connected to the support that can help.
 
-If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
+If you or someone you know is feeling suicidal or in danger of
+self-harm, call someone immediately, day or night:
 
 CaPS: 412-268-2922
 
