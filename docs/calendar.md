@@ -3,7 +3,7 @@
 
 Week  | Lecture | Date  |Topic  |Readings  |Slides <br> Notes |
 :------:|:-----:|:-----:|--------------------------------|-------------|:---------:
-| **Week 1**  | Lecture 1  | (8/31)  | **Course Overview**                                                 |                                                           | [Slides](slides/Intro.pdf) |   |   |   |   |   |
+| **Week 1**  | Lecture 1  | (8/31)  | **Course Overview**                                                 |                                                           | [Slides](slides/intro.pdf) |   |   |   |   |   |
 | **Week 1**  | Lecture 2  | (9/1)   | **Reconstruction Attacks (Part 1)**                                 | [Reading](https://queue.acm.org/detail.cfm?id=3295691)    |                            |   |   |   |   |   |
 | **Week 1**  |            | (9/3)   | No Recitation                                                       |                                                           |                            |   |   |   |   |   |
 | **Week 2**  |            | (9/6)   | **Labor Day: No Class**                                             |                                                           |                            |   |   |   |   |   |
