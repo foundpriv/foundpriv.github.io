@@ -38,11 +38,17 @@ Please see the [calendar](calendar.md) for individual lectures.
     - **Office hours**: N/A
     - **Location**: See Canvas for Zoom Link
 
-## Teaching Assistant
+## Teaching Assistants
   - [Justin Whitehouse](https://www.cs.cmu.edu/~jwhiteho/)
 	- **Email**: [jwhiteho@andrew.cmu.edu](mailto:jwhiteho@andrew.cmu.edu)
 	- **Office hours**: N/A
 	- **Location**: N/A
+  - [Shuaiqi Wang](https://www.andrew.cmu.edu/user/gfanti/team/)
+	- **Email**: [shuaiqiw@andrew.cmu.edu](mailto:shuaiqiw@andrew.cmu.edu)
+	- **Office hours**: N/A
+	- **Location**: N/A
+
+
 
 ## Prerequisites
 This is a theory-oriented course, intended for graduate students and
