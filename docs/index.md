@@ -41,7 +41,7 @@ Please see the [calendar](calendar.md) for individual lectures.
 ## Teaching Assistants
   - [Justin Whitehouse](https://www.cs.cmu.edu/~jwhiteho/)
 	- **Email**: [jwhiteho@andrew.cmu.edu](mailto:jwhiteho@andrew.cmu.edu)
-	- **Office hours**: 1:00PM--2:00PM EST, Weds
+	- **Office hours**: 2:00PM--3:00PM EST, Weds
 	- **Location**: [Zoom link](https://cmu.zoom.us/j/98090085711?pwd=WTBMUWs3NWhKYk1nQUlUdHZtS3ZpQT09)
   - [Shuaiqi Wang](https://www.andrew.cmu.edu/user/gfanti/team/)
 	- **Email**: [shuaiqiw@andrew.cmu.edu](mailto:shuaiqiw@andrew.cmu.edu)
