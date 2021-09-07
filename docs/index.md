@@ -29,24 +29,24 @@ Please see the [calendar](calendar.md) for individual lectures.
 ## Logistics
 - **Course**: Foundations of Privacy, Fall 2021
 - **Zoom Link**: See Canvas
-- **Lecture Time**: Fall 2021, 11:50AM--1:10PM, Mon & Weds
+- **Lecture Time**: Fall 2021, 11:50AM--1:10PM EST, Mon & Weds
 
 
 ## Instructor
   - [Steven Wu](https://zstevenwu.com)
     - **Email**: [zstevenwu@cmu.edu](mailto:zstevenwu@cmu.edu)
-    - **Office hours**: N/A
-    - **Location**: See Canvas for Zoom Link
+    - **Office hours**: 2:00PM--2:45PM EST, Mon
+    - **Location**: [Zoom link](https://cmu.zoom.us/j/95672139719?pwd=Ly9wbzFpSHBOdmcwQUlzZzBxY2V2UT09)
 
 ## Teaching Assistants
   - [Justin Whitehouse](https://www.cs.cmu.edu/~jwhiteho/)
 	- **Email**: [jwhiteho@andrew.cmu.edu](mailto:jwhiteho@andrew.cmu.edu)
-	- **Office hours**: N/A
-	- **Location**: N/A
+	- **Office hours**: 1:00PM--2:00PM EST, Weds
+	- **Location**: [Zoom link](https://cmu.zoom.us/j/98090085711?pwd=WTBMUWs3NWhKYk1nQUlUdHZtS3ZpQT09)
   - [Shuaiqi Wang](https://www.andrew.cmu.edu/user/gfanti/team/)
 	- **Email**: [shuaiqiw@andrew.cmu.edu](mailto:shuaiqiw@andrew.cmu.edu)
-	- **Office hours**: N/A
-	- **Location**: N/A
+	- **Office hours**: 1:00PM-2:00PM EST, Thurs
+	- **Location**: [Zoom link](https://cmu.zoom.us/j/94767205743?pwd=UVdnQmI5bmE1a0RIaUdBZlZLdzZ3UT09)
 
 
 
