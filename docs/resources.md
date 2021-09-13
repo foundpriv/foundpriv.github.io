@@ -2,7 +2,7 @@
 - Check out [differentialprivacy.org](http://www.differentialprivacy.org/). Much of the resources below are taken from their [resources page](https://differentialprivacy.org/resources/).
 
 ## Related Courses
-* [Algorithms for Private Data Analysis](http://dpcmu.github.io), taught by [Steven Wu](http://www.zstevenwu.com/), Fall 2021
+* [Algorithms for Private Data Analysis](http://dpcmu.github.io), taught by [Steven Wu](http://www.zstevenwu.com/), Spring 2021
 * [Algorithms for Private Data Analysis](http://www.gautamkamath.com/CS860-fa2020.html), taught by [Gautam Kamath](http://www.gautamkamath.com/), Fall 2020
 * [Private Systems](https://columbia.github.io/private-systems-class/), taught by [Roxana Geambasu](https://roxanageambasu.github.io/), Spring 2020
 * [Algorithms in Society](https://docs.google.com/document/d/1MO9DSbJMMnJxgml3uwYRgw2LaXPzUaDGyDM1CU6Z-Tk/), taught by [Adam Smith](https://cs-people.bu.edu/ads22/), Spring 2020
