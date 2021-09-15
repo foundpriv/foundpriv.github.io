@@ -1,4 +1,8 @@
 # Schedule
+
+## Deadlines
+- Homework 1: 9/26
+
 ## Lecture Schedule (Tentative)
 
 Week  | Lecture | Date  |Topic  |Readings  |Slides <br> Notes |
@@ -44,5 +48,4 @@ Acknowledgement: Some of course materials are based on those developed
 by Gautam Kamath, Jonathan Ullman, Adam Smith, and Aaron Roth.
 
 
-## Deadlines
-TBA
+
