@@ -1,1 +1,1 @@
-Differential Privacy Course at CMU (Spring 2021)
+Foundations of Privacy Course at CMU (Fall 2021)
