@@ -2,6 +2,7 @@
 
 ## Deadlines
 - Homework 1: 9/26
+- Homework 2: 10/17
 
 ## Lecture Schedule (Tentative)
 
