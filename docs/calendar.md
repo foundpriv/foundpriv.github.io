@@ -4,6 +4,8 @@
 - Homework 1: 9/26
 - Homework 2: 10/17
 - Homework 3: 11/14
+- Homework 4: 12/6
+- Final: 12/3
 
 ## Lecture Schedule (Tentative)
 
@@ -45,7 +47,7 @@ Week  | Lecture | Date  |Topic  |Readings  |Slides <br> Notes |
 | **Week 11** | Lecture 21   | (11/10) | **Fair ML (Part 1)**                                                        |                                                           | [Slides](https://drive.google.com/file/d/1rkGMY-mcolv9MB7Q7EGCQLZXeV9tx2fv/view?usp=sharing)                      |
 | **Week 12** | Lecture 22   | (11/15) | **Fair ML (Part 2)**                                                        |                                                           | [Slides](https://drive.google.com/file/d/1AEjlzHbMfhtVeyYfB-wGRjX5PS2kcKAC/view?usp=sharing)                      |
 | **Week 12** | Lecture 23   | (11/17) | **Fair ML (Part 3)**                                                        |                                                           | [Slides](https://drive.google.com/file/d/1AEjlzHbMfhtVeyYfB-wGRjX5PS2kcKAC/view?usp=sharing)                      |
-| **Week 13** | Lecture 24   | (11/22) | **Fairness and Causal Inference**                                           |                                                           |                                                                                                                   |
+| **Week 13** | Lecture 24   | (11/22) | **Fairness and Causal Inference**                                           |                                                           | [Slides](https://drive.google.com/file/d/12ec-CU2acke5590OZBsYuD_oJNPCB8PU/view?usp=sharing)                      |
 | **Week 13** |              | (11/24) | **Thanksgiving: No Class**                                                  |                                                           |                                                                                                                   |
 | **Week 14** | Lecture 25   | (11/29) | **DP and Census <br> guest lecture**                                        |                                                           |                                                                                                                   |
 | **Week 14** | Lecture 26   | (12/1)  | **Review** (Last Lecture)                                                   |                                                           |                                                                                                                   |
