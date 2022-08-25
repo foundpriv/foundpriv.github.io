@@ -1,5 +1,8 @@
 # Foundations of Privacy
 
+## Update: This page is no longer maintained.
+**Please visit the new [course webpage](https://foundprivacy.github.io/).**
+
 ## Overview
 
 Privacy is a significant concern in modern society. Individuals share
